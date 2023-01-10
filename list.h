@@ -40,8 +40,8 @@ public:
 	
 	int size(); // get size
 	
-	void addNode(Node<NT>*);
-	void delNode(int i);
+	void addNode(Node<NT>*); // Add node to end of list
+	void delNode(int i); // Delete node at index i
 	
 	// Overloading [] operator to access elements in array style
 	Node<NT>* operator[](int);	
