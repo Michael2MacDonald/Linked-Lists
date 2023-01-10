@@ -2,8 +2,8 @@
 #include "student.h"
 
 // Required for compiler to know to build versions of the methods with the student type
-template class Node<Student>;
-template class List<Student>;
+// template class Node<Student>;
+// template class List<Student>;
 
 
 template<typename T>

@@ -47,6 +47,13 @@ public:
 	Node<NT>* operator[](int);	
 };
 
+// ===== IMPORTANT =====
+// Required for compiler to know to build versions of the methods with the student type
+
+#include "student.h" // change "student.h" to the header file that contains your student class
+template class Node<Student>; // change "Student" to the name of your student class
+template class List<Student>; // change "Student" to the name of your student class
+
 
 
 #endif /* LIST_H */
